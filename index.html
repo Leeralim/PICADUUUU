@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <!--Подключаем normalize-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <title>PIKADUUUU - main page</title>
+</head>
+
+<body>
+    <!--Пишем шапку саита-->
+    <header class="header">
+        <div class="header-wrapper">
+            <a href="/" class="header-logo">
+                <img class="header-logo-image" src="img/logo.svg" alt="logo">
+            </a>
+            <nav class="header-nav">
+                <ul class="header-menu">
+                    <li class="header-menu-item"><a href="#" class="header-menu-link">Свежее</a>
+                        <!-- /.header-menu-link -->
+                    </li>
+                    <!-- /.header-menu-item -->
+                    <li class="header-menu-item"><a href="#" class="header-menu-link">Лучшее</a>
+                        <!-- /.header-menu-link -->
+                    </li>
+                    <!-- /.header-menu-item -->
+                    <li class="header-menu-item"><a href="#" class="header-menu-link">Горячее</a>
+                        <!-- /.header-menu-link -->
+                    </li>
+                    <!-- /.header-menu-item -->
+                    <li class="header-menu-item"><a href="#" class="header-menu-link">Подписки</a>
+                        <!-- /.header-menu-link -->
+                    </li>
+                    <!-- /.header-menu-item -->
+                </ul>
+                <!-- /.header-menu -->
+
+            </nav>
+            <div class="input-group search">
+                <input type="search" class="search-input" placeholder="Поиск по сайту">
+                <button class="search-button">
+                    <img src="img/search.svg" alt="ЛУПА" class="search-item">
+                </button>
+            </div>
+            <!-- /.input-group -->
+            <a href="#" class="menu-toggle" id="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </div>
+        <!-- /.header-wrapper -->
+
+    </header>
+    <div class="content">
+        <main class="posts">
+            <section class="post">
+                <div class="post-body">
+                    <h2 class="post-title">Заголовок поста</h2>
+                    <p class="post-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque delectus ipsa
+                        repellendus nihil! Suscipit ipsam inventore excepturi, mollitia eveniet illum, recusandae
+                        placeat
+                        quod quas dolores dolor enim sunt delectus eos molestias corrupti minus voluptate ea. Unde ea
+                        debitis, labore quia hic possimus praesentium minima numquam, placeat dolores fugiat fugit
+                        voluptate
+                        dolorum pariatur beatae nesciunt deleniti nulla! Libero quasi et molestias temporibus expedita?
+                        Praesentium numquam odit quis cum dignissimos cumque, necessitatibus, quibusdam, mollitia
+                        reiciendis
+                        nostrum ab nulla! Numquam quo omnis quidem deserunt natus nobis inventore praesentium,
+                        perferendis
+                        vero fuga officiis ipsa porro commodi placeat quae, dolor tenetur, error magnam modi facilis
+                        obcaecati eum cumque? Tenetur harum dolor ex explicabo magni praesentium porro debitis ipsa aut
+                        quam
+                        qui facere deserunt minima, illum mollitia doloribus tempora repellendus? Nostrum similique unde
+                        aspernatur aperiam consequatur quibusdam saepe nobis aut dolorum. Similique obcaecati expedita
+                        laboriosam temporibus voluptates reiciendis maiores, sit ut, debitis quod nobis ad fuga.</p>
+                    <p class="post-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque delectus ipsa
+                        repellendus nihil! Suscipit ipsam inventore excepturi, mollitia eveniet illum, recusandae
+                        placeat
+                        quod quas dolores dolor enim sunt delectus eos molestias corrupti minus voluptate ea. Unde ea
+                        debitis, labore quia hic possimus praesentium minima numquam, placeat dolores fugiat fugit
+                        voluptate
+                        dolorum pariatur beatae nesciunt deleniti nulla! Libero quasi et molestias temporibus expedita?
+                        Praesentium numquam odit quis cum dignissimos cumque, necessitatibus, quibusdam, mollitia
+                        reiciendis
+                        nostrum ab nulla!</p>
+                    <p class="post-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque delectus ipsa
+                        repellendus nihil! Suscipit ipsam inventore excepturi, mollitia eveniet illum, recusandae
+                        placeat
+                        quod quas dolores dolor enim sunt delectus eos molestias corrupti minus voluptate ea. Unde ea
+                        debitis, labore quia hic possimus praesentium minima numquam, placeat dolores fugiat fugit
+                        voluptate
+                        dolorum pariatur beatae nesciunt deleniti nulla! Libero quasi et molestias temporibus expedita?
+                        Praesentium numquam odit quis cum dignissimos cumque, necessitatibus, quibusdam, mollitia
+                        reiciendis
+                        nostrum ab nulla!</p>
+                    <div class="tags">
+                        <a href="#" class="tag">#свежее</a>
+                        <a href="#" class="tag">#новое</a>
+                        <a href="#" class="tag">#горячее</a>
+                        <a href="#" class="tag">#мое</a>
+                        <a href="#" class="tag">#случайность</a>
+                    </div>
+                </div>
+                <!-- /.post-body -->
+                <!-- /.tags -->
+                <div class="post-footer">
+                    <div class="post-buttons">
+                        <button class="post-button likes">
+                            <svg width="19" height="20" class="icon icon-like">
+                                <use xlink:href="img/icons.svg#like"></use>
+                            </svg>
+                            <span class="likes-counter">26</span>
+                        </button>
+                        <button class="post-button comments">
+                            <svg width="21" height="21" class="icon icon-comment">
+                                <use xlink:href="img/icons.svg#comment"></use>
+                            </svg>
+                            <span class="comments-counter">266</span>
+                        </button>
+                        <button class="post-button save">
+                            <svg width="19" height="19" class="icon icon-save">
+                                <use xlink:href="img/icons.svg#save"></use>
+                            </svg>
+                        </button>
+                        <button class="post-button share">
+                            <svg width="17" height="19" class="icon icon-share">
+                                <use xlink:href="img/icons.svg#share"></use>
+                            </svg>
+                        </button>
+                    </div>
+                    <!-- /.post-buttons -->
+                    <div class="post-author">
+                        <div class="author-about">
+                            <a href="#" class="author-username">leeralim</a>
+                            <span class="post-time">10 минут назад</span>
+                        </div>
+                        <a href="" class="author-link">
+                            <img src="img/avatar.jpg" alt="" class="author-avatar">
+                        </a>
+                    </div>
+                    <!-- /.post-autor -->
+                </div>
+                <!-- /.post-footer -->
+            </section>
+
+            <section class="post">
+                <div class="post-body">
+                    <h2 class="post-title">Заголовок поста</h2>
+                    <p class="post-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque delectus ipsa
+                        repellendus nihil! Suscipit ipsam inventore excepturi, mollitia eveniet illum, recusandae
+                        placeat
+                        quod quas dolores dolor enim sunt delectus eos molestias corrupti minus voluptate ea. Unde ea
+                        debitis, labore quia hic possimus praesentium minima numquam, placeat dolores fugiat fugit
+                        voluptate
+                        dolorum pariatur beatae nesciunt deleniti nulla! Libero quasi et molestias temporibus expedita?
+                        Praesentium numquam odit quis cum dignissimos cumque, necessitatibus, quibusdam, mollitia
+                        reiciendis
+                        nostrum ab nulla! Numquam quo omnis quidem deserunt natus nobis inventore praesentium,
+                        perferendis
+                        vero fuga officiis ipsa porro commodi placeat quae, dolor tenetur, error magnam modi facilis
+                        obcaecati eum cumque? Tenetur harum dolor ex explicabo magni praesentium porro debitis ipsa aut
+                        quam
+                        qui facere deserunt minima, illum mollitia doloribus tempora repellendus? Nostrum similique unde
+                        aspernatur aperiam consequatur quibusdam saepe nobis aut dolorum. Similique obcaecati expedita
+                        laboriosam temporibus voluptates reiciendis maiores, sit ut, debitis quod nobis ad fuga.</p>
+                    <p class="post-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque delectus ipsa
+                        repellendus nihil! Suscipit ipsam inventore excepturi, mollitia eveniet illum, recusandae
+                        placeat
+                        quod quas dolores dolor enim sunt delectus eos molestias corrupti minus voluptate ea. Unde ea
+                        debitis, labore quia hic possimus praesentium minima numquam, placeat dolores fugiat fugit
+                        voluptate
+                        dolorum pariatur beatae nesciunt deleniti nulla! Libero quasi et molestias temporibus expedita?
+                        Praesentium numquam odit quis cum dignissimos cumque, necessitatibus, quibusdam, mollitia
+                        reiciendis
+                        nostrum ab nulla!</p>
+                    <p class="post-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque delectus ipsa
+                        repellendus nihil! Suscipit ipsam inventore excepturi, mollitia eveniet illum, recusandae
+                        placeat
+                        quod quas dolores dolor enim sunt delectus eos molestias corrupti minus voluptate ea. Unde ea
+                        debitis, labore quia hic possimus praesentium minima numquam, placeat dolores fugiat fugit
+                        voluptate
+                        dolorum pariatur beatae nesciunt deleniti nulla! Libero quasi et molestias temporibus expedita?
+                        Praesentium numquam odit quis cum dignissimos cumque, necessitatibus, quibusdam, mollitia
+                        reiciendis
+                        nostrum ab nulla!</p>
+                    <div class="tags">
+                        <a href="#" class="tag">#свежее</a>
+                        <a href="#" class="tag">#новое</a>
+                        <a href="#" class="tag">#горячее</a>
+                        <a href="#" class="tag">#мое</a>
+                        <a href="#" class="tag">#случайность</a>
+                    </div>
+                </div>
+                <!-- /.post-body -->
+                <!-- /.tags -->
+                <div class="post-footer">
+                    <div class="post-buttons">
+                        <button class="post-button likes">
+                            <svg width="19" height="20" class="icon icon-like">
+                                <use xlink:href="img/icons.svg#like"></use>
+                            </svg>
+                            <span class="likes-counter">26</span>
+                        </button>
+                        <button class="post-button comments">
+                            <svg width="21" height="21" class="icon icon-comment">
+                                <use xlink:href="img/icons.svg#comment"></use>
+                            </svg>
+                            <span class="comments-counter">266</span>
+                        </button>
+                        <button class="post-button save">
+                            <svg width="19" height="19" class="icon icon-save">
+                                <use xlink:href="img/icons.svg#save"></use>
+                            </svg>
+                        </button>
+                        <button class="post-button share">
+                            <svg width="17" height="19" class="icon icon-share">
+                                <use xlink:href="img/icons.svg#share"></use>
+                            </svg>
+                        </button>
+                    </div>
+                    <!-- /.post-buttons -->
+                    <div class="post-author">
+                        <div class="author-about">
+                            <a href="#" class="author-username">leeralim</a>
+                            <span class="post-time">10 минут назад</span>
+                        </div>
+                        <a href="" class="author-link">
+                            <img src="img/avatar.jpg" alt="" class="author-avatar">
+                        </a>
+                    </div>
+                    <!-- /.post-autor -->
+                </div>
+                <!-- /.post-footer -->
+            </section>
+        </main>
+        <!-- /.posts -->
+        <aside class="sidebar">
+            <div class="user">
+                <a class="user-info">
+                    <img width="40" height="40" src="img/avatar.jpg" alt="user" class="user-avatar">
+                    <span class="user-name">leeralim</span>
+                </a>
+                <!-- /.user-info -->
+                <a href="#" class="exit">
+                    <svg class="icon icon-exit">
+                        <use xlink:href="img/icons.svg#exit"></use>
+                    </svg>
+                </a>
+                <!-- /.exit -->
+            </div>
+            <!-- /.user -->
+            <nav class="sidebar-nav">
+                <ul class="sidebar-menu">
+                    <li class="sidebar-menu-item">
+                        <a href="#" class="sidebar-menu-link">Ответы</a> <!-- /.sidebar-menu-link -->
+                    </li>
+                    <!-- /.sidebar-menu-item -->
+                    <li class="sidebar-menu-item">
+                        <a href="#" class="sidebar-menu-link active">Комментарии</a> <!-- /.sidebar-menu-link -->
+                    </li>
+                    <!-- /.sidebar-menu-item -->
+                    <li class="sidebar-menu-item">
+                        <a href="#" class="sidebar-menu-link">Оценки</a> <!-- /.sidebar-menu-link -->
+                    </li>
+                    <!-- /.sidebar-menu-item -->
+                    <li class="sidebar-menu-item">
+                        <a href="#" class="sidebar-menu-link">Сохраненное</a> <!-- /.sidebar-menu-link -->
+                    </li>
+                    <!-- /.sidebar-menu-item -->
+                    <li class="sidebar-menu-item">
+                        <a href="#" class="sidebar-menu-link">Подписки</a> <!-- /.sidebar-menu-link -->
+                    </li>
+                    <!-- /.sidebar-menu-item -->
+                    <li class="sidebar-menu-item">
+                        <a href="#" class="sidebar-menu-link">Заметки</a> <!-- /.sidebar-menu-link -->
+                    </li>
+                    <!-- /.sidebar-menu-item -->
+                    <li class="sidebar-menu-item">
+                        <a href="#" class="sidebar-menu-link">Игнор-лист</a> <!-- /.sidebar-menu-link -->
+                    </li>
+                    <!-- /.sidebar-menu-item -->
+                </ul>
+                <!-- /.sidebar-menu -->
+            </nav>
+            <a href="new-post.html" class="button button-new-post">
+                <svg class="icon icon-fire">
+                    <use xlink:href="img/icons.svg#fire"></use>
+                </svg>
+                Опубликовать пост
+            </a>
+
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-title">Совет дня</h2>
+                </div>
+                <!-- /.card-header -->
+                <div class="card-body">
+                    <a href="#" class="card-body-title">Как украсить свою комнату без покупки лишней мишуры?</a>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis assumenda earum
+                        blanditiis consequuntur autem necessitatibus temporibus deleniti ratione. Neque est
+                        exercitationem quos aut, totam quod vel ratione cum. Quam, nostrum.
+                        Veniam sed, minima corrupti quaerat aliquid incidunt at qui, repellendus quia tempora nesciunt
+                        dolorum, odit delectus culpa dolor sit assumenda aut consequatur? Accusamus provident ab quaerat
+                        nostrum, fuga dicta magni!
+                        Porro labore, nisi alias quidem voluptate reiciendis modi dolorum illo pariatur, eveniet
+                        assumenda commodi odio totam consectetur blanditiis. Aliquid debitis cumque illum. Consequatur
+                        qui maiores, explicabo nemo iste corrupti maxime.
+                        Aliquid rerum incidunt, tempora quo vitae ad nisi ratione! Hic mollitia omnis dolores quos.
+                        Architecto, ullam laborum, quibusdam nihil odit cupiditate unde ad consectetur at commodi facere
+                        ab quae atque!</p>
+                </div>
+                <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+            <a class="promo">
+            </a>
+        </aside>
+        <!-- /.sidebar -->
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
